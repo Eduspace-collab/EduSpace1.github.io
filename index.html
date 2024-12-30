@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,7 +56,6 @@
         <button class="tab-button" onclick="showTab('tab3')">History</button>
     </div>
 
-    <!-- Tab content -->
     <div id="tab1" class="tab active">
         <p>Introduction to EduSpace</p>
         <img src="mars.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
@@ -175,25 +174,21 @@ The most influential figure in ancient Greek astronomy was Claudius Ptolemy, who
 </p>                 
     <script>
         function showTab(tabId) {
-            // Hide all tabs
             const tabs = document.querySelectorAll('.tab');
             tabs.forEach(tab => tab.classList.remove('active'));
-
-            // Remove active class from all buttons
+            
             const buttons = document.querySelectorAll('.tab-button');
             buttons.forEach(button => button.classList.remove('active'));
 
-            // Show the currently selected tab
             document.getElementById(tabId).classList.add('active');
 
-            // Highlight the active button
             const activeButton = Array.from(buttons).find(button => button.textContent === tabId.replace('tab', 'Hub'));
             if (activeButton) {
                 activeButton.classList.add('active');
             }
         }
 
-        function myFunction() {
+        function myfunction() {
             document.getElementById("demo").innerHTML = "Thank you, here is the link for our telegram group. <a href='https://t.me/astroknowledge777' class='telegram-link' target='_blank'>CLICK HERE</a>";
         }
 
@@ -205,4 +200,5 @@ The most influential figure in ancient Greek astronomy was Claudius Ptolemy, who
         The web is under development. If you have any suggestions about anything and everything, contact us via the telegram group ^⁠_⁠^. Link is given in the introduction page.</p>
     </footer>
 </body>
-</html>
+    </html>
+    
