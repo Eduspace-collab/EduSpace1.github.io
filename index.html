@@ -60,12 +60,15 @@
         <p>Introduction to EduSpace</p>
         <img src="mars.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
         <p>Ever wondered beyond the blue sky? Then you've come to the right spot where we are committed to creating awareness about space and astronomy. Click the Explore button to get our Telegram group link for further learning and earning of knowledge!</p>
-        <button type="button" onclick="myFunction()">Explore!</button>
+        <button type="button" onclick="myFunction()">Where to discuss?</button>
+        <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML ='Join our telegram group using the link provided <a href="https://t.me/Astroknowledge777">here</a> for discussions and questions';
+        }
         
-        <div id="demo"></div>
-        <footer>
-<p>...........................................................1....................................................................</p>
-         </footer>
+        </script>
+        <div id="demo">
+        </div>
     </div>
     
     <div id="tab2" class="tab">
@@ -126,9 +129,9 @@
         
 
 <p>Generally,Astronomy is a fascinating field that combines science, technology, and philosophy. It helps us understand our place in the universe and inspires curiosity about the cosmos. Whether through telescopes or space missions, the exploration of space continues to reveal new wonders and mysteries.</p>
-         <footer>
-<p>...........................................................2....................................................................</p>
-         </footer>
+          <button class="tab-button active" onclick="showTab('tab1')">Back to Introduction hub</button>
+        <button class="tab-button" onclick="showTab('tab3')">History</button>
+        
     </div>
         <div id="tab3" class="tab">
             <p> The Early History of Astronomy: A Journey Through Time</p>
@@ -157,8 +160,9 @@ The Babylonians meticulously recorded the movements of planets and stars, creati
 
 The heliacal rising of Sirius, which occurred just before the annual flooding of the Nile River, was particularly significant for the Egyptians. This astronomical event heralded a new agricultural season, emphasizing the interconnectedness of celestial phenomena and daily life. Egyptian astronomers developed a calendar that consisted of 365 days, divided into twelve months, with an additional five days added at the end of the year. This early understanding of timekeeping would influence future civilizations.
  </p>
-                 <img src="pyr.jpg" alt="A breathtaking view from space" style="max-width: 100%; height:auto;">
-        
+                 <img src="pyr.jpg" alt="Great pyramids of Egypt" style="max-width: 100%; height:auto;">
+        <button class="tab-button" onclick="showTab('tab4')">1.Mesopotamia</button>
+                 
           <button class="tab-button" onclick="showTab('tab6')">3.Greece</button>       
             </div>
              <div id="tab6" class="tab"> 
@@ -171,7 +175,11 @@ The ancient Greeks made monumental contributions to astronomy that laid the foun
 Aristotle expanded upon these concepts, advocating for a geocentric model where Earth was at the center of the universe. His work influenced astronomical thought for centuries. However, it was Aristarchus of Samos who dared to propose a heliocentric model, suggesting that the Sun, not Earth, was at the center of the universe. Although his ideas were not widely accepted during his lifetime, they would later resurface in the Renaissance.
 
 The most influential figure in ancient Greek astronomy was Claudius Ptolemy, whose work "Almagest" synthesized earlier knowledge and presented a comprehensive geocentric model. Ptolemy's system explained the apparent retrograde motion of planets through complex epicycles and dominated astronomical thought for over a millennium.
-</p>                 
+</p>   
+                 <p>Fantastic! right? And this is just the beginning. There is a lot more to discover! So stay tuned and curious!</p>
+<button class="tab-button" onclick="showTab('tab4')">1.Mesopotamia</button>
+                    <button class="tab-button" onclick="showTab('tab5')">2.Egypt</button>
+                </div>
     <script>
         function showTab(tabId) {
             const tabs = document.querySelectorAll('.tab');
@@ -196,9 +204,9 @@ The most influential figure in ancient Greek astronomy was Claudius Ptolemy, who
     </script>
   
     <footer>
-        <p>Made by DaveSpace.
-        The web is under development. If you have any suggestions about anything and everything, contact us via the telegram group ^⁠_⁠^. Link is given in the introduction page.</p>
+        <p>&copy; 2024 Eduspace. All rights reserved
+            
+            If you have any suggestions about anything and everything, contact us via the telegram group ^⁠_⁠^. Link is given in the introduction page.</p>
     </footer>
 </body>
-    </html>
-    
+                    </html>
